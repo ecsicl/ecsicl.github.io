@@ -1,32 +1,56 @@
 - name: "Mingshuo Liu"
   photo: uci.jpg
-  info: UCI Phd , Started Aug. 2023
+  info: UCI Phd , Started 2023
   #email: 
-  website: https://jaylenttt.github.io/
+  website: https://ecsicl.github.io/team/
 
 - name: "Shiyi Luo"
   photo: uci.jpg
-  info: UCI Phd , Started Aug. 2024
+  info: UCI Phd , Started 2024
   #email: 
-  website: https://jaylenttt.github.io/
+  website: https://ecsicl.github.io/team/
 
 - name: "Yunduan Lou"
-  photo: rock.jpg
-  info: Graduate Student, Started Dec. 2020
+  photo: uci.jpg
+  info: UCI Phd , Started 2025
   #email: 
-  website: https://jaylenttt.github.io/
+  website: https://ecsicl.github.io/team/
 
 - name: "Jialin Tang"
-  photo: rock.jpg
-  info: Graduate Student, Started Aug. 2022
+  photo: uci.jpg
+  info: UCI Phd , Started 2026
   #email: tjl_0516@csu.fullerton.edu
-  website: https://jaylenttt.github.io/
+  website: https://ecsicl.github.io/team/
 
 - name: "Jiaqi Zhang"
   photo: rock.jpg
-  info: Graduate Student, Started Jan. 2024
+  info: Graduate Student in Computer Engineering, Started Aug. 2024
   #email: 
-  website: https://jaylenttt.github.io/
+  website: https://ecsicl.github.io/team/
+
+- name: "XiangChen Li"
+  photo: rock.jpg
+  info: Graduate Student in Computer Engineering, Started Aug. 2025
+  #email: 
+  website: https://ecsicl.github.io/team/
+
+- name: "Zhijie Ma"
+  photo: rock.jpg
+  info: Graduate Student in Electrical Engineering, Started Aug. 2025
+  #email: 
+  website: https://ecsicl.github.io/team/
+
+- name: "Linxin Zuo"
+  photo: rock.jpg
+  info: Graduate Student in Computer Engineering, Started Aug.2025
+  #email: 
+  website: https://ecsicl.github.io/team/
+
+- name: "Kailun Huang"
+  photo: rock.jpg
+  info: Graduate Student in Computer Engineering, Started Jan.2026
+  #email: 
+  website: https://ecsicl.github.io/team/
 
 
 
