@@ -1,17 +1,62 @@
-img { 
-    border-radius:5%;
+// Force white background everywhere
+body {
+  background-color: #ffffff !important;
+}
+
+html {
+  background-color: #ffffff !important;
+}
+
+.container-fluid,
+.container,
+.container-footer {
+  background-color: #ffffff !important;
 }
 
 .jumbotron {
-    padding:20px; 
-    padding-bottom:7px; 
-    margin-top:22px; 
-    margin-bottom:22px;
+  background-color: #ffffff !important;
+  padding:20px; 
+  padding-bottom:7px; 
+  margin-top:22px; 
+  margin-bottom:22px;
 }
 
 .navbar {
   margin-bottom: 20px;
   border-bottom: 4px solid var(--secondary);
+  background-color: #ffffff !important;
+}
+
+.navbar-dark,
+.bg-dark,
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #000000 !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-light .navbar-brand {
+  color: #000000 !important;
+}
+
+.panel-footer {
+  background-color: #ffffff !important;
+}
+
+.card {
+  background-color: #ffffff !important;
+}
+
+section#footer {
+  background-color: #ffffff !important;
+}
+
+.well-collapse {
+  background-color: #ffffff !important;
 }
 
 .btn {
