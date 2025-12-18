@@ -1,9 +1,20 @@
 // Force white background everywhere
-:root {
+:root,
+[data-bs-theme="light"],
+[data-bs-theme="dark"] {
   --bs-body-bg: #ffffff !important;
   --bs-body-color: #000000 !important;
   --bs-body-bg-rgb: 255, 255, 255 !important;
   --bs-body-color-rgb: 0, 0, 0 !important;
+  --bs-emphasis-color: #000000 !important;
+  --bs-emphasis-color-rgb: 0, 0, 0 !important;
+  --bs-secondary-color: #000000 !important;
+  --bs-secondary-color-rgb: 0, 0, 0 !important;
+  --bs-heading-color: #000000 !important;
+  --bs-link-color: #000000 !important;
+  --bs-link-color-rgb: 0, 0, 0 !important;
+  --bs-link-hover-color: #333333 !important;
+  color-scheme: light !important;
 }
 
 html {
@@ -78,8 +89,10 @@ section#footer {
   color: #000000 !important;
 }
 
-// Force all text to black - override everything
-* {
+// Force all text to black - override everything including dark theme
+*,
+[data-bs-theme="dark"] *,
+[data-bs-theme="light"] * {
   color: #000000 !important;
 }
 
