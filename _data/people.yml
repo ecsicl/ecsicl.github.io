@@ -1,38 +1,56 @@
+# ===================== Ph.D. Students =====================
+
 - name: Mingshuo Liu
-  degree: Ph.D. 
+  location: University of California, Irvine
+  degree: Ph.D. Candidate
+  year: 2023
 
 
 - name: Shiyi Luo
-  degree: Ph.D. 
+  location: University of California, Irvine
+  degree: Ph.D. Candidate
+  year: 2024
 
 
 - name: Yunduan Lou
-  degree: M.S. 
+  location: University of California, Irvine
+  degree: Ph.D. Candidate
+  year: 2025
 
 
 - name: Jialin Tang
-  degree: M.S. 
+  location: University of California, Irvine
+  degree: Ph.D. Candidate
+  year: 2026
 
+
+# ===================== M.S. Students =====================
 
 - name: Jiaqi Zhang
-  degree: M.S. 
+  location: California State University, Fullerton
+  degree: M.S. Candidate
+  year: 2024
 
-#- name: Student Here
-#  location: Univesity Here
-#  degree: Ph.D. 
-#  year: 2021
 
-#- name: Student Here
-#  location: Univesity Here
-#  degree: Ph.D. 
-#  year: 2020
+- name: XiangChen Li
+  location: California State University, Fullerton
+  degree: M.S. Candidate
+  year: 2025
 
-#- name: Student Here
-#  location: Univesity Here
-#  degree: M.S.
-#  year: 2020
 
-#- name: Student Here
-#  location: Univesity Here
-#  degree: B.S.
-# year: 2020
+- name: Zhijie Ma
+  location: California State University, Fullerton
+  degree: M.S. Candidate
+  year: 2025
+
+
+- name: Linxin Zuo
+  location: California State University, Fullerton
+  degree: M.S. Candidate
+  year: 2025
+
+
+- name: Kailun Huang
+  location: California State University, Fullerton
+  degree: M.S. Candidate
+  year: 2026
