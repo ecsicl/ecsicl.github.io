@@ -41,7 +41,7 @@ Book Chapter<br><br></h2><h4>
 • X.Tang, X. Xu,Y. Bai,"Computer Essential ," Tsinghua University Press, ISBN 978730243418.<br><br><br>
 </h4><h2>
 Journal Papers<br><br></h2><h4>
-• [IEEE TGRS (IF=7.5)] Tian, Rui, Danqing Liu, Yu Bai, Yu Jin, Guanliang Wan, and Yanhui Guo. "Swin-
+• [IEEE TGRS (IF=8.6)] Tian, Rui, Danqing Liu, Yu Bai, Yu Jin, Guanliang Wan, and Yanhui Guo. "Swin-
 MSP: A Shifted Windows Masked Spectral Pretraining Model for Hyperspectral Image Classification." IEEE
 Transactions on Geoscience and Remote Sensing (2024).<br><br>
 • [Elsevier Internet of Things’24 (IF=6.0)] Sun, Y., Bai, Y., & Zhou, Z. (2024). Collaboration of AI, big data,and blockchain in Internet of Things (IoT): Emerging trends and perspectives. Internet of Things, 101234.<br><br>
