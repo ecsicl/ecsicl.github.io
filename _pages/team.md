@@ -68,28 +68,12 @@ permalink: /team/
 {% if even_odd == 1 %}
 
 </div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-</div>
-
-<br>
-Giovanni Martinez, Undergraduate Student 
-
-Seena Mohajeran, Undergraduate Student
-
-Manuel Castillo, Undergraduate Student
-<br><br>
 
 ## Lab Alumni
 
 <br>
+
+Jiaqi Tang, Software Engineer at Pac-dent, Brea, CA, USA.
 
 Xiaotian Ma, IT Specialist at Pac-dent, Brea, CA, USA.
 
