@@ -30,7 +30,7 @@ iframe {
 }
 </style>
 
-## Sponsors
+# Sponsors
 
 <div class="jumbotron">
 <img src="{{ site.url }}{{ site.baseurl }}/images/sponsorss.jpg" width="100%"/>
