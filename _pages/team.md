@@ -101,7 +101,7 @@ Jonathan Schinowsky, Engineer at Department of Defense (DOD) Research Lab, USA.
 
 <br>
 
-Yuga Ono, Ritsumeikan University
+Yuga Ono, SoftBank Group
 
 Carlye Favella, Golden West College
 
