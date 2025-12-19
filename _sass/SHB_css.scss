@@ -100,25 +100,31 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000000 !important;
 }
 
-// Reduce font sizes
-h1 {
+// Reduce font sizes - apply to all headings
+h1, .h1 {
   font-size: 1.8rem !important;
 }
 
-h2 {
+h2, .h2 {
   font-size: 1.4rem !important;
 }
 
-h3 {
+h3, .h3 {
   font-size: 1.5rem !important;
 }
 
-h4 {
+h4, .h4 {
   font-size: 1.2rem !important;
 }
 
-h5 {
+h5, .h5 {
   font-size: 1.1rem !important;
+}
+
+// Center homepage welcome text
+#homeid h3:first-of-type,
+#homeid h3:nth-of-type(2) {
+  text-align: center !important;
 }
 
 p, span, div, li, td, th, label, small, strong, em, b, i {

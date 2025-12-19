@@ -6,9 +6,9 @@ permalink: /
 ---
 
 <div style="text-align: center;">
-### Welcome to
+<h3 style="text-align: center;">Welcome to</h3>
 
-### Intelligent Computing Joint Research Laboratory
+<h3 style="text-align: center;">Intelligent Computing Joint Research Laboratory</h3>
 </div>
 
 <div class="container">
