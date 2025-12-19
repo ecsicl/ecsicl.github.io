@@ -12,7 +12,7 @@ permalink: /
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/fulllogo1.jpg" style="max-width: 40%; height: auto;"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/fulllogo1.jpg" style="max-width: 20%; height: auto;"/>
 </center>
 </div>
 </div>
