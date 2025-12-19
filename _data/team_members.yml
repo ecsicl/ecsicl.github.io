@@ -1,12 +1,12 @@
 - name: "Mingshuo Liu"
   photo: uci.jpg
-  info: UCI Phd Candidiate, Started 2023
+  info: UCI Phd Candidate, Started 2023
   #email: 
   scholar: https://scholar.google.com/citations?user=0e_Ddb0AAAAJ&hl=en
 
 - name: "Shiyi Luo"
   photo: uci.jpg
-  info: UCI Phd Candidiate, Started 2024
+  info: UCI Phd Candidate, Started 2024
   #email: 
   scholar: https://scholar.google.com/citations?user=lV8s7xUAAAAJ&hl=en
 
@@ -24,7 +24,7 @@
 
 - name: "Jiaqi Zhang"
   photo: csuf.jpg
-  info: MS Candidiate in Computer Engineering, Started 24Fall
+  info: MS Candidate in Computer Engineering, Started 24Fall
   #email: 
   website: https://ecsicl.github.io/team/
 
