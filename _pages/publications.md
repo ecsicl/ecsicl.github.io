@@ -41,10 +41,16 @@ Book Chapter<br><br></h2><h4>
 • X.Tang, X. Xu,Y. Bai,"Computer Essential ," Tsinghua University Press, ISBN 978730243418.<br><br><br>
 </h4><h2>
 Journal Papers<br><br></h2><h4>
+• [Nature Digital Medicine'25] Yang, Yabing, Chanchan Xiao, Dehua Zou, Lu Wang, Ruijie Yang, Yiran Bai, and Yu Bai*. "Deep learning-enabled multiphoton microscopy predicts colorectal cancer recurrence from routine FFPE specimens." Nature Digital Medicine 8, no. 1 (2025): 689.<br><br>
+• [Quantitative Imaging in Medicine and Surgery'25] Jin, Y., R. Tian, Q. Yu, Y. Bai*, G. Chao, D. Liu, and Y. Guo. "EMCAH-Net: an effective multi-scale context aggregation hybrid network for medical image segmentation." Quantitative Imaging in Medicine and Surgery 15, no. 4 (2025): 3064.<br><br>
+• [IEEE TCAD'25] Yasaei, R., M. Abdullah Al Faruque, A. Acharyya, T. Adegbija, M. Adelkhani, R. Agarwal, S. Agarwal, E. Aghapour, and Yu Bai*. "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems." IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (2025): 25-38.<br><br>
+• [arXiv'25] Mhaske, H., A. Mandhare, J. Huang, and Y. Bai*. "Ground contact and reaction force sensing for linear policy control of quadruped robot." arXiv preprint arXiv:2503.01102 (2025).<br><br>
+• [CVPR'25] Yang, C., Y. Sui, J. Xiao, L. Huang, Y. Gong, C. Li, J. Yan, Y. Bai*, et al. "Topv: Compatible token pruning with inference time optimization for fast and low-memory multimodal vision language model." Proceedings of the Computer Vision and Pattern Recognition Conference (2025): 19803.<br><br>
 • [IEEE TGRS (IF=8.6)] Tian, Rui, Danqing Liu, Yu Bai, Yu Jin, Guanliang Wan, and Yanhui Guo. "Swin-
 MSP: A Shifted Windows Masked Spectral Pretraining Model for Hyperspectral Image Classification." IEEE
 Transactions on Geoscience and Remote Sensing (2024).<br><br>
 • [Elsevier Internet of Things’24 (IF=6.0)] Sun, Y., Bai, Y., & Zhou, Z. (2024). Collaboration of AI, big data,and blockchain in Internet of Things (IoT): Emerging trends and perspectives. Internet of Things, 101234.<br><br>
+• [arXiv'24] Luo, S., M. Liu, P. Sun, Y. Yu, S. Ren, and Y. Bai*. "An Adaptive Tensor-Train Decomposition Approach for Efficient Deep Neural Network Compression." arXiv e-prints, arXiv:2408.01534 (2024).<br><br>
 • [IEEE JESTIE’23 (IF=5.462)] X. Ma, S. Luo, R. F. DeMara, P. Sun, Q. Peng and Y. Bai*, "Binarized l1 -
 Regularization Parameters Enhanced Strip-Wise Optimization Algorithm for Efficient Neural Network Op-
 timization," in IEEE Journal of Emerging and Selected Topics in Industrial Electronics, doi: 10.1109/JESTIE.2023.3313050.<br><br>
@@ -94,6 +100,9 @@ Technology," Journal of Low Power Electronics and Applications., 2016; 6(3):15.,
 achieve higher error resilience," Journal of Electrical and Computer Engineering (JECE 2012), Article 5, Jan.2012. DOI=http://dx.doi.org/10.1155/2012/593532.<br><br><br></h4>
 
 <h2>Conference Papers<br><br></h2><h4>
+• [IEEE ICDIK'24] Martinez, G., K. Huang, Y. Lou, and Y. Bai*. "Innovative Applications of AI and 3D Printing in Digital Dentistry: Enhancing Accuracy and Efficiency in Dental Care." 2024 International Conference on Identification, Information and Knowledge in the Internet of Things (ICDIK), 2024.<br><br>
+• [IEEE CDC'24] Mohajeran, S., H. Ke, J. Ke, M. Li, Y. Bai*, and M. Li. "Streamlined Video Object Detection with YOLOX YOLOV5 YOLOV7 and YOLOV8." 2024 10th International Conference on Control, Decision and Information Technologies (CoDIT), 2024.<br><br>
+• [NSF Award'24] Bai, Y*. "CAP: INSPIRE-Inclusive Strategies for Promoting AI Research and Education, Empowering Underrepresented Students and Faculty." NSF Award Number 2433391. Directorate for Computer and Information Science and Engineering, 2024.<br><br>
 • [ACM GLSVLSI’24] Yarnell, Richard C., Mousam Hossain, Raul Graterol, Ayush Pindoria, Sujan Ghimire,
 Muhtasim Alam Chowdhury, Soheil Salehi, Yu Bai, and Ronald F. Demara. "Educational Tool-spaces for
 Convolutional Neural Network FPGA Design Space Exploration Using High-Level Synthesis." In Proceed-
