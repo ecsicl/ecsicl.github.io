@@ -11,23 +11,17 @@ permalink: /
 <h3 style="text-align: center;">Intelligent Computing Joint Research Laboratory</h3>
 </div>
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/fulllogo1.jpg" style="max-width: 20%; height: auto;"/>
-</center>
-</div>
-</div>
-
 ### Research Topics: 
 <h4>
-Research in the laboratory focuses on 6 core topics: <br><br>
+Research in the laboratory focuses on 8 core topics: <br><br>
 (1) Efficient Machine Learning<br>
 (2) Mathematical Theory for Deep Learning<br>
 (3) Big Data Analytics/Processing<br> 
 (4) High-Performance Computing<br> 
 (5) Architecting Hardware Accelerator<br> 
-(6) AI in Health<br><br>
+(6) AI in Health<br>
+(7) Generative AI<br>
+(8) AI for Science<br><br>
 
 </h4>
 
