@@ -127,6 +127,13 @@ iframe {
 • [SPL'11] Weidong Kuang, Yu Bai, "<a href="https://doi.org/10.1109/SPL.2011.5782652" target="_blank">Soft error in FPGA-implemented asynchronous circuits</a>," Programmable Logic (SPL), 2011 VII Southern Conference on, vol., no., pp.221,226, 13-15 April 2011 doi: 10.1109/SPL.2011.5782652. Acceptance rate (?)<br><br>
 </p>
 
+<h2>Papers</h2>
+<p style="font-size: 1rem !important;">
+• <a href="{{ site.url }}{{ site.baseurl }}/papers/ASL Audio Interpreter.pdf" target="_blank">ASL Audio Interpreter</a><br><br>
+• <a href="{{ site.url }}{{ site.baseurl }}/papers/Autonomous Robot Dog Home Inspector.pdf" target="_blank">Autonomous Robot Dog Home Inspector</a><br><br>
+• <a href="{{ site.url }}{{ site.baseurl }}/papers/Nexus Gate Fund.pdf" target="_blank">Nexus Gate Fund</a><br><br>
+• <a href="{{ site.url }}{{ site.baseurl }}/papers/Protocorio.pdf" target="_blank">Protocorio</a><br><br>
+</p>
 
 </div>
 </div>
