@@ -70,3 +70,12 @@ permalink: /about/
 </div>
 {% endif %}
 
+<div class="jumbotron">
+  <h3>Papers</h3>
+  <ul>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/about/papers/ASL Audio Interpreter.pdf" target="_blank">ASL Audio Interpreter</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/about/papers/Autonomous Robot Dog Home Inspector.pdf" target="_blank">Autonomous Robot Dog Home Inspector</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/about/papers/Nexus Gate Fund.pdf" target="_blank">Nexus Gate Fund</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/about/papers/Protocorio.pdf" target="_blank">Protocorio</a></li>
+  </ul>
+</div>
