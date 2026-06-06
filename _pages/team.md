@@ -50,7 +50,7 @@ permalink: /team/
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
 </div>
 <div class="col-sm-4 col-xs-12">
-  <h4>{{ member.name }}</h4>
+  <h4>{% if member.website %}<a href="{{ member.website }}" target="_blank" style="color: #0d6efd;">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}<br></i>
 
 {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
