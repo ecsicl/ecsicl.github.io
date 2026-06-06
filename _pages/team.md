@@ -5,6 +5,31 @@ sitemap: false
 permalink: /team/
 ---
 
+<style>
+.team-member-photo {
+  width: 100%;
+  max-width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1;
+  display: block;
+}
+.team-avatar-initials {
+  width: 100%;
+  max-width: 120px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #5c6f8a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+</style>
+
 # Team
 
 **We are looking for new team members** [see openings](https://mp.weixin.qq.com/s?__biz=Mzg4NjAzNjA2MQ==&mid=2247483797&idx=1&sn=21ec18f61d2146a31bc9d34dec094fef&chksm=cf9e82a7f8e90bb1c2b906e3cc02fe49e3fcf176863b0d4237ff2d76e2f288e31969313f4f56&token=2133957464&lang=zh_CN#rd) **!**
@@ -47,7 +72,13 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+{% assign school_photos = "uci.jpg|csuf.jpg" | split: "|" %}
+{% if school_photos contains member.photo %}
+  {% assign name_parts = member.name | split: " " %}
+  <div class="team-avatar-initials" aria-hidden="true">{{ name_parts[0] | slice: 0, 1 | upcase }}{{ name_parts[1] | slice: 0, 1 | upcase }}</div>
+{% else %}
+  <img class="team-member-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
+{% endif %}
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{% if member.name == "Jialin Tang" %}<a href="https://jaylentang.github.io/" target="_blank" style="color: #0d6efd;">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
