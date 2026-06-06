@@ -5,6 +5,16 @@ sitemap: false
 permalink: /team/
 ---
 
+<style>
+.team-student-photo {
+  width: 120px;
+  height: 120px;
+  max-width: 120px;
+  object-fit: cover;
+  display: block;
+}
+</style>
+
 # Team
 
 **We are looking for new team members** [see openings](https://mp.weixin.qq.com/s?__biz=Mzg4NjAzNjA2MQ==&mid=2247483797&idx=1&sn=21ec18f61d2146a31bc9d34dec094fef&chksm=cf9e82a7f8e90bb1c2b906e3cc02fe49e3fcf176863b0d4237ff2d76e2f288e31969313f4f56&token=2133957464&lang=zh_CN#rd) **!**
@@ -47,7 +57,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px" alt="{{ member.name }}"/>
+<img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{% if member.name == "Jialin Tang" %}<a href="https://jaylentang.github.io/" target="_blank" style="color: #0d6efd;">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
