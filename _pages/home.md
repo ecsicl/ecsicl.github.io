@@ -29,9 +29,7 @@ Research in the laboratory focuses on 8 core topics: <br><br>
 
 <h4 style="font-size: 0.95rem !important;">
 
-The Intelligent computing research lab is looking for self-motivated students and scholars to join the Lab for pursuing graduate degrees (M.S. in Electrical Engineering, Computer Engineering, Mathematics and/or Computer Science and Ph.D. in Computational Science) or conduct collaborative research. Also, there are multiple visiting scholar positions. If you are interested in working with me, please send your resume to ybai2 at uci dot edu.<br><br>
-
-<strong>Postdoctoral Researcher Position:</strong> We are currently recruiting one postdoctoral researcher. For more information and to apply, please visit: <a href="https://www.schooljobs.com/careers/csufasc/jobs/5208380/postdoctoral-researcher?pagetype=jobOpportunitiesJobs" target="_blank">Postdoctoral Researcher Position</a>.<br><br></h4>
+The Intelligent computing research lab is looking for self-motivated students and scholars to join the Lab for pursuing graduate degrees (M.S. in Electrical Engineering, Computer Engineering, Mathematics and/or Computer Science and Ph.D. in Computational Science) or conduct collaborative research. Also, there are multiple visiting scholar positions. If you are interested in working with me, please send your resume to ybai2 at uci dot edu.<br><br></h4>
 
 <h3 style="font-size: 1.1rem !important;">Note:</h3>
 
