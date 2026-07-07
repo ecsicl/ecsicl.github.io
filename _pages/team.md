@@ -90,6 +90,8 @@ permalink: /team/
 
 <br>
 
+Giovanni Martinez, Electrical & Electronics Engineer at Raytheon, Tucson, Arizona, USA.
+
 Jiaqi Tang, Software Engineer at Pac-dent, Brea, CA, USA.
 
 Xiaotian Ma, IT Specialist at Pac-dent, Brea, CA, USA.
@@ -105,8 +107,6 @@ John Gawlik, Scientist at Department of Defense (DOD) Research Lab, USA.
 Azadeh Famili, Currently Ph.D. Candidate at Clemson University, SC, USA.
 
 Jonathan Schinowsky, Engineer at Department of Defense (DOD) Research Lab, USA. 
-
-Giovanni Martinez, Electrical & Electronics Engineer at [Raytheon](https://www.linkedin.com/company/raytheon/).
 
 <br>
 ## Visiting Lab Member
