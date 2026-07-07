@@ -106,6 +106,8 @@ Azadeh Famili, Currently Ph.D. Candidate at Clemson University, SC, USA.
 
 Jonathan Schinowsky, Engineer at Department of Defense (DOD) Research Lab, USA. 
 
+Giovanni Martinez, Electrical & Electronics Engineer at [Raytheon](https://www.linkedin.com/company/raytheon/).
+
 <br>
 ## Visiting Lab Member
 
