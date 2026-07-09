@@ -13,6 +13,24 @@ permalink: /team/
   object-fit: cover;
   display: block;
 }
+.team-member-row {
+  margin-bottom: 2.25rem;
+}
+.team-member-links {
+  margin-top: 0.45rem;
+  width: 120px;
+  text-align: center;
+}
+.team-pi-links {
+  margin-top: 0.45rem;
+  max-width: 250px;
+  text-align: center;
+}
+.team-member-links a,
+.team-pi-links a {
+  display: inline-block;
+  margin: 0 0.12rem;
+}
 .team-member-education {
   font-size: 0.92rem;
   line-height: 1.4;
@@ -35,12 +53,17 @@ permalink: /team/
 <div class="row">
 <div class="col-sm-2">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+  <div class="team-pi-links">
+  {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}
+  {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}
+  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}
+  {% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}
+  {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}
+  </div>
 </div>
 <div class="col-sm-9 col-xs-12">
 <h4>{{ member.name }}</h4>
 <i>{{ member.info }}</i><br>
-
-{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %} {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %} {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %} {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %} {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
 
 <ul style="overflow: hidden">
 <li> {{ member.education[0] }} </li>
@@ -55,20 +78,23 @@ permalink: /team/
 ## Current Students
 
 <div class='jumbotron'>
-{% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
+<div class="row team-member-row">
 
 <div class="col-sm-2">
 <img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
+{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}
+<div class="team-member-links">
+{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}
+{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}
+{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}
+{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}
+{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}
 </div>
-<div class="col-sm-4 col-xs-12">
+{% endif %}
+</div>
+<div class="col-sm-10 col-xs-12">
   <h4>{% if member.name == "Jialin Tang" %}<a href="https://jaylentang.github.io/" target="_blank" style="color: #0d6efd;">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}
@@ -79,27 +105,10 @@ permalink: /team/
   </ul>
   {% endif %}
 
-{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-{% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
-{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-{% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-{% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
-
 </div>
-<!-- </div> -->
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 </div>
 
 ## Lab Alumni
