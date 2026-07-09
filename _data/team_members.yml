@@ -1,41 +1,41 @@
 - name: "Mingshuo Liu"
   photo: mingshuo_liu.jpg
-  info: UCI Ph.D. Candidate in Computational Science, Started Fall 2023
+  info: UC Irvine Ph.D. Candidate in Computational Science, Started Fall 2023
   affiliation_logo: uci.jpg
   education:
-    - "M.S. in Computer Engineering, California State University, Fullerton"
-    - "B.S. in Communication Engineering, Tianjin Normal University"
+    - "(2022) M.S. in Computer Engineering, California State University, Fullerton"
+    - "(2019) B.S. in Communication Engineering, Tianjin Normal University"
   #email: 
   scholar: https://scholar.google.com/citations?user=0e_Ddb0AAAAJ&hl=en
 
 - name: "Shiyi Luo"
   photo: shiyi_luo.jpg
-  info: UCI Ph.D. Candidate in Computational Science, Started Fall 2024
+  info: UC Irvine Ph.D. Candidate in Computational Science, Started Fall 2024
   affiliation_logo: uci.jpg
   education:
-    - "M.S. in Computer Engineering, California State University, Fullerton"
-    - "B.S. in Communication Engineering, Tianjin Normal University"
+    - "(2024) M.S. in Computer Engineering, California State University, Fullerton"
+    - "(2020) B.S. in Communication Engineering, Tianjin Normal University"
   #email: 
   scholar: https://scholar.google.com/citations?user=lV8s7xUAAAAJ&hl=en
 
 - name: "Yunduan Lou"
   photo: yunduan_lou.jpg
-  info: UCI Ph.D. Student in Computational Science, Started Fall 2025
+  info: UC Irvine Ph.D. Student in Computational Science, Started Fall 2025
   affiliation_logo: uci.jpg
   education:
-    - "M.S. in Actuarial Science, University of Connecticut"
-    - "B.A. in Mathematics, Nazareth University"
-    - "B.A. in Sports Economics and Management, Shandong University of Finance and Economics"
+    - "(2022) M.S. in Actuarial Science, University of Connecticut"
+    - "(2020) B.A. in Mathematics, Nazareth University"
+    - "(2020) B.A. in Sports Economics and Management, Shandong University of Finance and Economics"
   #email: 
   researchgate: https://www.researchgate.net/scientific-contributions/Yunduan-Lou-2307953159
 
 - name: "Jialin Tang"
   photo: jialin_tang.jpg
-  info: UCI Ph.D. Student in Computational Science, Started Fall 2026
+  info: UC Irvine Ph.D. Student in Computational Science, Started Fall 2026
   affiliation_logo: uci.jpg
   education:
-    - "M.S. in Computer Science, California State University, Fullerton"
-    - "B.M. in Information Management and Information Systems, Shandong University of Finance and Economics"
+    - "(2026) M.S. in Computer Science, California State University, Fullerton"
+    - "(2022) B.M. in Information Management and Information Systems, Shandong University of Finance and Economics"
   #email: tjl_0516@csu.fullerton.edu
   scholar: https://scholar.google.com/citations?user=tOytfmwAAAAJ&hl=en
   cv: https://jaylentang.github.io/
@@ -45,7 +45,8 @@
   info: Research Assistant, CSUF M.S. in Computer Engineering, Graduated Summer 2026
   affiliation_badge: csuf
   education:
-    - "M.S. in Computer Engineering, California State University, Fullerton"
+    - "(2026) M.S. in Computer Engineering, California State University, Fullerton"
+    - "(2024) B.E. in Electrical and Electronics Engineering, Panimalar Engineering College"
   #email: 
 
 - name: "Jiaqi Zhang"
@@ -53,7 +54,7 @@
   info: CSUF M.S. Candidate in Computer Engineering, Started Spring 2025
   affiliation_badge: csuf
   education:
-    - "B.S. in Mathematics and Applied Mathematics, Shandong University"
+    - "(2023) B.S. in Mathematics and Applied Mathematics, Shandong University"
   #email: 
 
 - name: "Xiangchen Li"
@@ -61,8 +62,8 @@
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2025
   affiliation_badge: csuf
   education:
-    - "M.S. in Statistics, University of Wisconsin-Madison"
-    - "B.S. in Mathematics and Applied Mathematics, Shandong University"
+    - "(2025) M.S. in Statistics, University of Wisconsin-Madison"
+    - "(2024) B.S. in Mathematics and Applied Mathematics, Shandong University"
   #email: 
 
 - name: "Zhijie Ma"
@@ -70,7 +71,7 @@
   info: CSUF M.S. Student in Electrical Engineering, Started Fall 2025
   affiliation_badge: csuf
   education:
-    - "B.S. in Intelligent Medical Engineering, Chongqing University"
+    - "(2025) B.S. in Intelligent Medical Engineering, Chongqing University"
   #email: 
 
 - name: "Linxin Zuo"
@@ -86,8 +87,8 @@
   info: CSUF M.S. Student in Computer Engineering, Started Spring 2026
   affiliation_badge: csuf
   education:
-    - "M.S. in Chemical Engineering, National Tsing Hua University"
-    - "B.S. in Chemical Engineering, National Tsing Hua University"
+    - "(2023) M.S. in Chemical Engineering, National Tsing Hua University"
+    - "(2020) B.S. in Chemical Engineering, National Tsing Hua University"
   #email: 
 
 - name: "Huanjing Liu"
@@ -95,8 +96,8 @@
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
   affiliation_badge: csuf
   education:
-    - "M.S. in Computer Science, University of Winnipeg"
-    - "B.S. in Computer Science and Technology, Shandong University of Traditional Chinese Medicine"
+    - "(2025) M.S. in Computer Science, University of Winnipeg"
+    - "(2023) B.S. in Computer Science and Technology, Shandong University of Traditional Chinese Medicine"
   #email: 
 
 - name: "Yuqi Yang"
@@ -104,7 +105,7 @@
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
   affiliation_badge: csuf
   education:
-    - "M.S. in Computer Science, University of Nottingham"
+    - "(2024) M.S. in Computer Science, University of Nottingham"
     - "B.S. in Materials Science and Engineering, Fujian University of Technology"
   #email: 
 
