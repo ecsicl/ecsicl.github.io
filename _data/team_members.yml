@@ -30,7 +30,7 @@
     - "B.A. in Sports Economics and Management, Shandong University of Finance and Economics (2020)"
   #email: 
   researchgate: https://www.researchgate.net/scientific-contributions/Yunduan-Lou-2307953159
-  research_interests: "efficient deep learning, tensor-train decomposition, medical AI, hyperspectral image analysis"
+  research_interests: "hyperspectral image classification, spectral-spatial representation learning, Mamba, Neural ODEs, continuous-depth modeling"
 
 - name: "Jialin Tang"
   photo: jialin_tang.jpg
@@ -42,7 +42,7 @@
   #email: tjl_0516@csu.fullerton.edu
   scholar: https://scholar.google.com/citations?user=tOytfmwAAAAJ&hl=en
   cv: https://jaylentang.github.io/
-  research_interests: "multimodal large language models, video understanding, hyperspectral remote sensing, AI for science"
+  research_interests: "hyperspectral image classification, spectral-spatial modeling, Mamba, Neural ODEs, efficient remote sensing AI"
 
 - name: "Abhishek Annadurai"
   photo: abhishek_annadurai.jpg
