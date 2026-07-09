@@ -74,7 +74,7 @@ permalink: /people/
   min-width: 0;
 }
 @media (min-width: 992px) {
-  .team-member-cell {
+  .team-master-grid .team-member-cell {
     width: 50%;
     padding-right: 1.4rem;
   }
@@ -112,7 +112,7 @@ permalink: /people/
 
 <div class='jumbotron'>
 <h3 class="team-student-section-title">Ph.D. Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/uci.jpg" alt="UC Irvine logo"/></h3>
-<div class="team-student-grid">
+<div class="team-student-grid team-phd-grid">
 {% for member in site.data.team_members %}
 {% if member.info contains "Ph.D." %}
 
@@ -145,7 +145,7 @@ permalink: /people/
 </div>
 
 <h3 class="team-student-section-title">Master Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/csuf.jpg" alt="Cal State Fullerton logo"/></h3>
-<div class="team-student-grid">
+<div class="team-student-grid team-master-grid">
 {% for member in site.data.team_members %}
 {% if member.info contains "M.S." %}
 
