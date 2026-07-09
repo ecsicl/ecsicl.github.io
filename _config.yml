@@ -31,9 +31,8 @@ nav_pages:
   - name: publications
   - name: fundings
   - name: services
-  - name: team
+  - name: people
   - name: sponsors
-  - name: news
 
 include:
   - .htaccess
