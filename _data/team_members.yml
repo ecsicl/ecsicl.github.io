@@ -1,76 +1,108 @@
 - name: "Mingshuo Liu"
   photo: mingshuo_liu.jpg
   info: UCI Phd Candidate, Started 2023
-  bio: "Background: From Shuozhou, Shanxi; B.S. in Communication Engineering, Tianjin Normal University; M.S. in Computer Engineering, CSUF."
+  education:
+    - "(2023-present) Ph.D. Computer Science, University of California, Irvine"
+    - "M.S. Computer Engineering, California State University, Fullerton"
+    - "B.S. Communication Engineering, Tianjin Normal University"
   #email: 
   scholar: https://scholar.google.com/citations?user=0e_Ddb0AAAAJ&hl=en
 
 - name: "Shiyi Luo"
   photo: shiyi_luo.jpg
   info: UCI Phd Candidate, Started 2024
-  bio: "Background: From Changzhi, Shanxi; B.S. in Communication Engineering, Tianjin Normal University; M.S. in Computer Engineering, CSUF."
+  education:
+    - "(2024-present) Ph.D. Computer Science, University of California, Irvine"
+    - "M.S. Computer Engineering, California State University, Fullerton"
+    - "B.S. Communication Engineering, Tianjin Normal University"
   #email: 
   scholar: https://scholar.google.com/citations?user=lV8s7xUAAAAJ&hl=en
 
 - name: "Yunduan Lou"
   photo: yunduan_lou.jpg
   info: UCI Phd Student, Started 2025
-  bio: "Background: From Jinan, Shandong; B.S. in Sports Economics and Management, Shandong University of Finance and Economics; M.S. in Actuarial Science, University of Connecticut."
+  education:
+    - "(2025-present) Ph.D. Computer Science, University of California, Irvine"
+    - "M.S. Actuarial Science, University of Connecticut"
+    - "B.S. Sports Economics and Management, Shandong University of Finance and Economics"
   #email: 
   researchgate: https://www.researchgate.net/scientific-contributions/Yunduan-Lou-2307953159
 
 - name: "Jialin Tang"
   photo: jialin_tang.jpg
   info: UCI Phd Student, Started 2026
-  bio: "Background: From Jinan, Shandong; B.S. in Information Management and Information Systems, Shandong University of Finance and Economics; M.S. in Computer Science, CSUF."
+  education:
+    - "(2026-present) Ph.D. Computer Science, University of California, Irvine"
+    - "M.S. Computer Science, California State University, Fullerton"
+    - "B.S. Information Management and Information Systems, Shandong University of Finance and Economics"
   #email: tjl_0516@csu.fullerton.edu
   scholar: https://scholar.google.com/citations?user=tOytfmwAAAAJ&hl=en
 
 - name: "Abhishek Annadurai"
   photo: abhishek_annadurai.jpg
   info: Research Assistant, Master in Computer Engineering, Graduated Summer 2026
+  education:
+    - "(2026) M.S. Computer Engineering, California State University, Fullerton"
   #email: 
 
 - name: "Jiaqi Zhang"
   photo: jiaqi_zhang.jpg
   info: MS Candidate in Computer Engineering, Started 25Spring
-  bio: "Background: From Liaocheng, Shandong; B.S. in Mathematics and Applied Mathematics, Shandong University; M.S. in Computer Engineering, CSUF."
+  education:
+    - "(2025-present) M.S. Computer Engineering, California State University, Fullerton"
+    - "B.S. Mathematics and Applied Mathematics, Shandong University"
   #email: 
 
 - name: "Xiangchen Li"
   photo: csuf.jpg
   info: MS Student in Computer Engineering, Started 25Fall
-  bio: "Background: From Rizhao, Shandong; B.S. in Mathematics and Applied Mathematics, Shandong University; graduate study in Statistics at the University of Wisconsin-Madison and Computer Engineering at CSUF."
+  education:
+    - "(2025-present) M.S. Computer Engineering, California State University, Fullerton"
+    - "M.S. Statistics, University of Wisconsin-Madison"
+    - "B.S. Mathematics and Applied Mathematics, Shandong University"
   #email: 
 
 - name: "Zhijie Ma"
   photo: csuf.jpg
   info: MS Student in Electrical Engineering, Started 25Fall
-  bio: "Background: From Chengdu, Sichuan; B.S. in Intelligent Medical Engineering, Chongqing University; M.S. in Electrical Engineering, CSUF."
+  education:
+    - "(2025-present) M.S. Electrical Engineering, California State University, Fullerton"
+    - "B.S. Intelligent Medical Engineering, Chongqing University"
   #email: 
 
 - name: "Linxin Zuo"
   photo: csuf.jpg
   info: MS Student in Computer Engineering, Started 25Fall
-  bio: "Background: From Changshou, Chongqing; B.S. in Computer Science and Technology, Sichuan University; M.S. in Computer Engineering, CSUF."
+  education:
+    - "(2025-present) M.S. Computer Engineering, California State University, Fullerton"
+    - "B.S. Computer Science and Technology, Sichuan University"
   #email: 
 
 - name: "Kailun Huang"
   photo: csuf.jpg
   info: MS Student in Computer Engineering, Started 26Spring
-  bio: "Background: From Taipei, Taiwan; B.S. and M.S. in Chemical Engineering, National Tsing Hua University; graduate study in Computer Engineering at CSUF."
+  education:
+    - "(2026-present) M.S. Computer Engineering, California State University, Fullerton"
+    - "M.S. Chemical Engineering, National Tsing Hua University"
+    - "B.S. Chemical Engineering, National Tsing Hua University"
   #email: 
 
 - name: "Huanjing Liu"
   photo: csuf.jpg
   info: MS Student in Computer Engineering, Started 26Fall
-  bio: "Background: From Dongying, Shandong; B.S. in Computer Science and Technology, Shandong University of Traditional Chinese Medicine; M.S. in Computer Science, University of Winnipeg; graduate study in Computer Engineering at CSUF."
+  education:
+    - "(2026-present) M.S. Computer Engineering, California State University, Fullerton"
+    - "M.S. Computer Science, University of Winnipeg"
+    - "B.S. Computer Science and Technology, Shandong University of Traditional Chinese Medicine"
   #email: 
 
 - name: "Yuqi Yang"
   photo: csuf.jpg
   info: MS Student in Computer Engineering, Started 26Fall
-  bio: "Background: From Shenzhen, Guangdong; B.S. in Materials Science and Engineering, Fujian University of Technology; M.S. in Computer Science, University of Nottingham; graduate study in Computer Engineering at CSUF."
+  education:
+    - "(2026-present) M.S. Computer Engineering, California State University, Fullerton"
+    - "M.S. Computer Science, University of Nottingham"
+    - "B.S. Materials Science and Engineering, Fujian University of Technology"
   #email: 
 
 - name: "Welcome to join our team!"

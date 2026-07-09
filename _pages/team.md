@@ -13,10 +13,14 @@ permalink: /team/
   object-fit: cover;
   display: block;
 }
-.team-member-bio {
+.team-member-education {
   font-size: 0.92rem;
   line-height: 1.4;
   margin: 0.35rem 0 0;
+  padding-left: 1.2rem;
+}
+.team-member-education li {
+  margin-bottom: 0.15rem;
 }
 </style>
 
@@ -67,7 +71,13 @@ permalink: /team/
 <div class="col-sm-4 col-xs-12">
   <h4>{% if member.name == "Jialin Tang" %}<a href="https://jaylentang.github.io/" target="_blank" style="color: #0d6efd;">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}<br></i>
-  {% if member.bio %}<p class="team-member-bio">{{ member.bio }}</p>{% endif %}
+  {% if member.education %}
+  <ul class="team-member-education">
+  {% for education in member.education %}
+    <li>{{ education }}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
 
 {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
 {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
