@@ -40,16 +40,18 @@ permalink: /team/
   display: inline-block;
   margin: 0 0.12rem;
 }
-.team-affiliation-logo {
-  float: right;
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-  margin-left: 1rem;
-}
 .team-student-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0.25rem 0 1.2rem;
   font-size: 1.25rem;
+}
+.team-section-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  margin-left: 1rem;
 }
 .team-member-education {
   font-size: 0.92rem;
@@ -108,7 +110,7 @@ permalink: /team/
 ## Current Students
 
 <div class='jumbotron'>
-<h3 class="team-student-section-title">Ph.D. Students</h3>
+<h3 class="team-student-section-title">Ph.D. Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/uci.jpg" alt="UC Irvine logo"/></h3>
 <div class="team-student-grid">
 {% for member in site.data.team_members %}
 {% if member.info contains "Ph.D." %}
@@ -120,7 +122,7 @@ permalink: /team/
 <img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
 <div class="team-member-info-col">
-  <h4>{% if member.affiliation_logo %}<img class="team-affiliation-logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.affiliation_logo }}" alt="Affiliation logo"/>{% endif %}{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
+  <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}
   <ul class="team-member-education">
@@ -141,7 +143,7 @@ permalink: /team/
 {% endfor %}
 </div>
 
-<h3 class="team-student-section-title">Master Students</h3>
+<h3 class="team-student-section-title">Master Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/csuf.jpg" alt="Cal State Fullerton logo"/></h3>
 <div class="team-student-grid">
 {% for member in site.data.team_members %}
 {% if member.info contains "M.S." %}
@@ -153,7 +155,7 @@ permalink: /team/
 <img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
 <div class="team-member-info-col">
-  <h4>{% if member.affiliation_logo %}<img class="team-affiliation-logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.affiliation_logo }}" alt="Affiliation logo"/>{% endif %}{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
+  <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}
   <ul class="team-member-education">
