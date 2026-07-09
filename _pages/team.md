@@ -41,6 +41,10 @@ permalink: /team/
 .team-member-education li {
   margin-bottom: 0.15rem;
 }
+.team-research-interest {
+  font-size: 0.92rem;
+  margin: 0.35rem 0 0;
+}
 </style>
 
 # Team
@@ -89,6 +93,9 @@ permalink: /team/
     <li>{{ education }}</li>
   {% endfor %}
   </ul>
+  {% endif %}
+  {% if member.research_interests %}
+  <p class="team-research-interest"><strong>Research Interest:</strong> {{ member.research_interests }}</p>
   {% endif %}
 
 </div>
