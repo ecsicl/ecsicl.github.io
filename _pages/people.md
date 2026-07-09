@@ -43,7 +43,8 @@ permalink: /people/
 .team-student-section-title {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 0.55rem;
   margin: 0.25rem 0 1.2rem;
   font-size: 1.25rem;
 }
@@ -51,7 +52,6 @@ permalink: /people/
   width: 52px;
   height: 52px;
   object-fit: contain;
-  margin-left: 1rem;
 }
 .team-member-education {
   font-size: 0.92rem;
