@@ -33,10 +33,14 @@ permalink: /team/
 }
 .team-affiliation-logo {
   float: right;
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   margin-left: 1rem;
+}
+.team-student-section-title {
+  margin: 0.25rem 0 1.2rem;
+  font-size: 1.25rem;
 }
 .team-member-education {
   font-size: 0.92rem;
@@ -82,7 +86,9 @@ permalink: /team/
 ## Current Students
 
 <div class='jumbotron'>
+<h3 class="team-student-section-title">Ph.D. Students</h3>
 {% for member in site.data.team_members %}
+{% if member.info contains "Ph.D." %}
 
 <div class="row team-member-row">
 
@@ -106,6 +112,36 @@ permalink: /team/
 </div>
 </div>
 
+{% endif %}
+{% endfor %}
+
+<h3 class="team-student-section-title">Master Students</h3>
+{% for member in site.data.team_members %}
+{% if member.info contains "M.S." %}
+
+<div class="row team-member-row">
+
+<div class="col-sm-2">
+<img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
+</div>
+<div class="col-sm-10 col-xs-12">
+  <h4>{% if member.affiliation_logo %}<img class="team-affiliation-logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.affiliation_logo }}" alt="Affiliation logo"/>{% endif %}{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
+  <i>{{ member.info }}<br></i>
+  {% if member.education %}
+  <ul class="team-member-education">
+  {% for education in member.education %}
+    <li>{{ education }}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+  {% if member.research_interests %}
+  <p class="team-research-interest"><strong>Research Interest:</strong> {{ member.research_interests }}</p>
+  {% endif %}
+
+</div>
+</div>
+
+{% endif %}
 {% endfor %}
 </div>
 
