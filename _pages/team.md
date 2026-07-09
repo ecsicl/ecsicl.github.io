@@ -32,6 +32,34 @@ permalink: /team/
   object-fit: contain;
   margin-left: 1rem;
 }
+.team-affiliation-badge {
+  float: right;
+  width: 118px;
+  min-height: 72px;
+  margin-left: 1rem;
+  border: 1px solid #f08a24;
+  border-radius: 6px;
+  background: #fff8ef;
+  color: #00244e;
+  text-align: center;
+  padding: 0.55rem 0.5rem;
+  line-height: 1.15;
+  box-sizing: border-box;
+}
+.team-affiliation-badge::before {
+  content: "CSUF";
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.team-affiliation-badge::after {
+  content: "Cal State Fullerton";
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.76rem;
+  color: #7a4a14;
+}
 .team-member-education {
   font-size: 0.92rem;
   line-height: 1.4;
@@ -81,6 +109,9 @@ permalink: /team/
 </div>
 <div class="col-sm-10 col-xs-12">
   {% if member.affiliation_logo %}<img class="team-affiliation-logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.affiliation_logo }}" alt="Affiliation logo"/>{% endif %}
+{% if member.affiliation_badge == "csuf" %}
+<div class="team-affiliation-badge" aria-label="California State University, Fullerton"></div>
+{% endif %}
   <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}

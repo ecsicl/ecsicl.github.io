@@ -25,6 +25,7 @@
   education:
     - "M.S. in Actuarial Science, University of Connecticut"
     - "B.A. in Mathematics, Nazareth University"
+    - "B.A. in Sports Economics and Management, Shandong University of Finance and Economics"
   #email: 
   researchgate: https://www.researchgate.net/scientific-contributions/Yunduan-Lou-2307953159
 
@@ -42,6 +43,7 @@
 - name: "Abhishek Annadurai"
   photo: abhishek_annadurai.jpg
   info: Research Assistant, CSUF M.S. in Computer Engineering, Graduated Summer 2026
+  affiliation_badge: csuf
   education:
     - "M.S. in Computer Engineering, California State University, Fullerton"
   #email: 
@@ -49,6 +51,7 @@
 - name: "Jiaqi Zhang"
   photo: jiaqi_zhang.jpg
   info: CSUF M.S. Candidate in Computer Engineering, Started Spring 2025
+  affiliation_badge: csuf
   education:
     - "B.S. in Mathematics and Applied Mathematics, Shandong University"
   #email: 
@@ -56,6 +59,7 @@
 - name: "Xiangchen Li"
   photo: csuf.jpg
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2025
+  affiliation_badge: csuf
   education:
     - "M.S. in Statistics, University of Wisconsin-Madison"
     - "B.S. in Mathematics and Applied Mathematics, Shandong University"
@@ -64,6 +68,7 @@
 - name: "Zhijie Ma"
   photo: csuf.jpg
   info: CSUF M.S. Student in Electrical Engineering, Started Fall 2025
+  affiliation_badge: csuf
   education:
     - "B.S. in Intelligent Medical Engineering, Chongqing University"
   #email: 
@@ -71,6 +76,7 @@
 - name: "Linxin Zuo"
   photo: csuf.jpg
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2025
+  affiliation_badge: csuf
   education:
     - "B.S. in Computer Science and Technology, Sichuan University"
   #email: 
@@ -78,6 +84,7 @@
 - name: "Kailun Huang"
   photo: csuf.jpg
   info: CSUF M.S. Student in Computer Engineering, Started Spring 2026
+  affiliation_badge: csuf
   education:
     - "M.S. in Chemical Engineering, National Tsing Hua University"
     - "B.S. in Chemical Engineering, National Tsing Hua University"
@@ -86,6 +93,7 @@
 - name: "Huanjing Liu"
   photo: csuf.jpg
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
+  affiliation_badge: csuf
   education:
     - "M.S. in Computer Science, University of Winnipeg"
     - "B.S. in Computer Science and Technology, Shandong University of Traditional Chinese Medicine"
@@ -94,6 +102,7 @@
 - name: "Yuqi Yang"
   photo: csuf.jpg
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
+  affiliation_badge: csuf
   education:
     - "M.S. in Computer Science, University of Nottingham"
     - "B.S. in Materials Science and Engineering, Fujian University of Technology"
