@@ -7,13 +7,22 @@ permalink: /team/
 
 <style>
 .team-student-photo {
-  width: 150px;
-  height: 150px;
-  max-width: 150px;
+  width: 118px;
+  height: 118px;
+  max-width: 118px;
   object-fit: cover;
   display: block;
 }
+.team-student-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-member-cell {
+  width: 100%;
+  padding-right: 0;
+}
 .team-member-row {
+  display: flex;
   margin-bottom: 2.25rem;
 }
 .team-member-row h4 {
@@ -33,8 +42,8 @@ permalink: /team/
 }
 .team-affiliation-logo {
   float: right;
-  width: 56px;
-  height: 56px;
+  width: 42px;
+  height: 42px;
   object-fit: contain;
   margin-left: 1rem;
 }
@@ -54,6 +63,19 @@ permalink: /team/
 .team-research-interest {
   font-size: 0.92rem;
   margin: 0.35rem 0 0;
+}
+.team-member-photo-col {
+  flex: 0 0 128px;
+}
+.team-member-info-col {
+  flex: 1;
+  min-width: 0;
+}
+@media (min-width: 992px) {
+  .team-member-cell {
+    width: 50%;
+    padding-right: 1.4rem;
+  }
 }
 </style>
 
@@ -87,15 +109,17 @@ permalink: /team/
 
 <div class='jumbotron'>
 <h3 class="team-student-section-title">Ph.D. Students</h3>
+<div class="team-student-grid">
 {% for member in site.data.team_members %}
 {% if member.info contains "Ph.D." %}
 
-<div class="row team-member-row">
+<div class="team-member-cell">
+<div class="team-member-row">
 
-<div class="col-sm-2">
+<div class="team-member-photo-col">
 <img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
-<div class="col-sm-10 col-xs-12">
+<div class="team-member-info-col">
   <h4>{% if member.affiliation_logo %}<img class="team-affiliation-logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.affiliation_logo }}" alt="Affiliation logo"/>{% endif %}{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}
@@ -111,20 +135,24 @@ permalink: /team/
 
 </div>
 </div>
+</div>
 
 {% endif %}
 {% endfor %}
+</div>
 
 <h3 class="team-student-section-title">Master Students</h3>
+<div class="team-student-grid">
 {% for member in site.data.team_members %}
 {% if member.info contains "M.S." %}
 
-<div class="row team-member-row">
+<div class="team-member-cell">
+<div class="team-member-row">
 
-<div class="col-sm-2">
+<div class="team-member-photo-col">
 <img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
-<div class="col-sm-10 col-xs-12">
+<div class="team-member-info-col">
   <h4>{% if member.affiliation_logo %}<img class="team-affiliation-logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.affiliation_logo }}" alt="Affiliation logo"/>{% endif %}{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}
@@ -140,9 +168,11 @@ permalink: /team/
 
 </div>
 </div>
+</div>
 
 {% endif %}
 {% endfor %}
+</div>
 </div>
 
 ## Lab Alumni
