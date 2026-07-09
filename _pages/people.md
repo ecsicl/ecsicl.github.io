@@ -23,12 +23,13 @@ permalink: /people/
 }
 .team-member-row {
   display: flex;
+  align-items: flex-start;
   margin-bottom: 2.25rem;
 }
 .team-member-row h4 {
-  margin-top: 0;
+  margin: 0 0 0.35rem;
 }
-.team-member-row .col-sm-2 p {
+.team-member-photo-col p {
   margin: 0;
 }
 .team-inline-links {
