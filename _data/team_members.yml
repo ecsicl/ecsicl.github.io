@@ -1,4 +1,4 @@
-- name: "Mingshuo Liu"
+- name: "Mingshuo (Eric) Liu"
   photo: mingshuo_liu.jpg
   info: UC Irvine Ph.D. Candidate in Computational Science, Started Fall 2023
   affiliation_logo: uci.jpg
@@ -9,7 +9,7 @@
   scholar: https://scholar.google.com/citations?user=0e_Ddb0AAAAJ&hl=en
   research_interests: "Machine Learning, AI4Science"
 
-- name: "Shiyi Luo"
+- name: "Shiyi (Lottie) Luo"
   photo: shiyi_luo.jpg
   info: UC Irvine Ph.D. Candidate in Computational Science, Started Fall 2024
   affiliation_logo: uci.jpg
@@ -20,7 +20,7 @@
   scholar: https://scholar.google.com/citations?user=lV8s7xUAAAAJ&hl=en
   research_interests: "Generative Models, Model Compression, AI4Science"
 
-- name: "Yunduan Lou"
+- name: "Yunduan (Cloud) Lou"
   photo: yunduan_lou.jpg
   info: UC Irvine Ph.D. Student in Computational Science, Started Fall 2025
   affiliation_logo: uci.jpg
@@ -32,7 +32,7 @@
   researchgate: https://www.researchgate.net/scientific-contributions/Yunduan-Lou-2307953159
   research_interests: "Deep Learning, Model Compression, AI4Science"
 
-- name: "Jialin Tang"
+- name: "Jialin (Jaylen) Tang"
   photo: jialin_tang.jpg
   info: UC Irvine Ph.D. Student in Computational Science, Started Fall 2026
   affiliation_logo: uci.jpg
