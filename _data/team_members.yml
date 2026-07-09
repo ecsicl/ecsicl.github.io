@@ -43,7 +43,7 @@
 - name: "Abhishek Annadurai"
   photo: abhishek_annadurai.jpg
   info: Research Assistant, CSUF M.S. in Computer Engineering, Graduated Summer 2026
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "(2026) M.S. in Computer Engineering, California State University, Fullerton"
     - "(2024) B.E. in Electrical and Electronics Engineering, Panimalar Engineering College"
@@ -52,58 +52,58 @@
 - name: "Jiaqi Zhang"
   photo: jiaqi_zhang.jpg
   info: CSUF M.S. Candidate in Computer Engineering, Started Spring 2025
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "(2023) B.S. in Mathematics and Applied Mathematics, Shandong University"
   #email: 
 
 - name: "Xiangchen Li"
-  photo: csuf.jpg
+  photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2025
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "(2025) M.S. in Statistics, University of Wisconsin-Madison"
     - "(2024) B.S. in Mathematics and Applied Mathematics, Shandong University"
   #email: 
 
 - name: "Zhijie Ma"
-  photo: csuf.jpg
+  photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Electrical Engineering, Started Fall 2025
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "(2025) B.S. in Intelligent Medical Engineering, Chongqing University"
   #email: 
 
 - name: "Linxin Zuo"
-  photo: csuf.jpg
+  photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2025
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "B.S. in Computer Science and Technology, Sichuan University"
   #email: 
 
 - name: "Kailun Huang"
-  photo: csuf.jpg
+  photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Spring 2026
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "(2023) M.S. in Chemical Engineering, National Tsing Hua University"
     - "(2020) B.S. in Chemical Engineering, National Tsing Hua University"
   #email: 
 
 - name: "Huanjing Liu"
-  photo: csuf.jpg
+  photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "(2025) M.S. in Computer Science, University of Winnipeg"
     - "(2023) B.S. in Computer Science and Technology, Shandong University of Traditional Chinese Medicine"
   #email: 
 
 - name: "Yuqi Yang"
-  photo: csuf.jpg
+  photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
-  affiliation_badge: csuf
+  affiliation_logo: csuf.jpg
   education:
     - "(2024) M.S. in Computer Science, University of Nottingham"
     - "B.S. in Materials Science and Engineering, Fujian University of Technology"
