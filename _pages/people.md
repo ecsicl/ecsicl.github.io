@@ -7,9 +7,9 @@ permalink: /people/
 
 <style>
 .team-student-photo {
-  width: 118px;
-  height: 118px;
-  max-width: 118px;
+  width: 144px;
+  height: 144px;
+  max-width: 144px;
   object-fit: cover;
   display: block;
 }
@@ -68,16 +68,35 @@ permalink: /people/
   margin: 0.35rem 0 0;
 }
 .team-member-photo-col {
-  flex: 0 0 128px;
+  flex: 0 0 156px;
 }
 .team-member-info-col {
   flex: 1;
   min-width: 0;
 }
+.team-pi-photo {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  display: block;
+}
 @media (min-width: 992px) {
   .team-master-grid .team-member-cell {
     width: 50%;
     padding-right: 1.4rem;
+  }
+}
+@media (max-width: 575px) {
+  .team-student-photo {
+    width: 128px;
+    height: 128px;
+    max-width: 128px;
+  }
+  .team-member-photo-col {
+    flex-basis: 140px;
+  }
+  .team-pi-photo {
+    max-width: 144px;
   }
 }
 </style>
@@ -92,8 +111,8 @@ permalink: /people/
 
 <div class="jumbotron">
 <div class="row">
-<div class="col-sm-2">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+<div class="col-sm-3 col-xs-12">
+  <img class="team-pi-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
 <div class="col-sm-9 col-xs-12">
 <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
