@@ -187,7 +187,7 @@ Giovanni Martinez, Electrical & Electronics Engineer at Raytheon, Tucson, Arizon
 
 Jiaqi Tang, Software Engineer at Pac-dent, Brea, CA, USA.
 
-Xiaotian Ma, IT Specialist at Pac-dent, Brea, CA, USA.
+Xiaotian Ma, Database Administrator at Pac-dent, Brea, CA, USA.
 
 Simon Yang, Manager at Ecotron, Whittier, CA, USA.
 
