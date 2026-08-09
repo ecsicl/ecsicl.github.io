@@ -85,15 +85,6 @@
     - "B.E. in Computer Science and Technology, Sichuan University"
   #email: 
 
-- name: "Kailun Huang"
-  photo: csuf_fullerton_placeholder.png
-  info: CSUF M.S. Student in Computer Engineering, Started Spring 2026
-  affiliation_logo: csuf.jpg
-  education:
-    - "M.S. in Chemical Engineering, National Tsing Hua University (2023)"
-    - "B.S. in Chemical Engineering, National Tsing Hua University (2020)"
-  #email: 
-
 - name: "Huanjing Liu"
   photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
