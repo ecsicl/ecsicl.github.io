@@ -202,8 +202,6 @@ permalink: /people/
 
 <br>
 
-Kailun Huang, M.S. Student in Computer Engineering at California State University, Fullerton.
-
 Giovanni Martinez, Electrical & Electronics Engineer at Raytheon, Tucson, Arizona, USA.
 
 Jiaqi Tang, Software Engineer at Pac-dent, Brea, CA, USA.
