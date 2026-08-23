@@ -252,7 +252,7 @@ Simon Yang, Manager at Ecotron, Whittier, CA, USA.
 
 Payal Borulkar, Senior Engineer at Google, Mountain View, CA, USA.
 
-Ashkan Samiee, Senior Engineer at Telsa Inc., CA, USA.
+Ashkan Samiee, Senior Engineer at Tesla Inc., CA, USA.
 
 John Gawlik, Scientist at Department of Defense (DOD) Research Lab, USA.
 

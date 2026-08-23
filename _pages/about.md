@@ -66,15 +66,3 @@ permalink: /about/
   </ul>
 </div>
 {% endif %}
-
-{% if site.data.people %}
-
-<div class="jumbotron">
-  <h3>Active Students</h3>
-  <ul>
-    {% for student in site.data.people %}
-      <li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year }})</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}

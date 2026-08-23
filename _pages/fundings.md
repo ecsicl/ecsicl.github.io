@@ -1,5 +1,5 @@
 ---
-title: "fundings"
+title: "Funding"
 layout: gridlay
 sitemap: false
 permalink: /fundings/
@@ -30,7 +30,7 @@ iframe {
 }
 </style>
 
-# Fundings
+# Funding
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="line-height: 1.6;">
@@ -46,7 +46,7 @@ iframe {
 resented Engineering and Computer Science Students (ACCESS), 150,000 dollars, Jan 1, 2024- Dec. 31, 2026. <br><br>
 
 • Army Research Office (#W911NF2010174): Edge-Based Machine Intelligence Architecture for In-Situ Video
-Processing using Binarized Neutral Networks" June 10, 2020-June 9, 2023, 418,657 dollars. <br><br>
+Processing using Binarized Neural Networks" June 10, 2020-June 9, 2023, 418,657 dollars. <br><br>
 
 • National Science Foundation (NSF#1832536): Building Capacity: Advancing Student Success in Undergrad-
 uate Engineering and Computer Science (ASSURE-US), October 1, 2018-September 30, 2023, 1,496,967 dollars.<br><br>
