@@ -12,7 +12,15 @@ permalink: /people/
   max-width: 144px;
   object-fit: cover;
   display: block;
+}
+.team-member-photo-frame {
+  width: 144px;
+  height: 144px;
+  overflow: hidden;
   border-radius: 6px;
+}
+.team-student-photo--tight {
+  transform: scale(1.1);
 }
 .team-profile-grid,
 .team-student-grid {
@@ -111,6 +119,10 @@ permalink: /people/
     height: 128px;
     max-width: 128px;
   }
+  .team-member-photo-frame {
+    width: 128px;
+    height: 128px;
+  }
   .team-member-photo-col {
     flex-basis: 140px;
   }
@@ -165,7 +177,9 @@ permalink: /people/
 <div class="team-member-row">
 
 <div class="team-member-photo-col">
-<img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
+<div class="team-member-photo-frame">
+<img class="team-student-photo{% if member.photo_crop %} team-student-photo--{{ member.photo_crop }}{% endif %}" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
+</div>
 </div>
 <div class="team-member-info-col">
   <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
@@ -198,7 +212,9 @@ permalink: /people/
 <div class="team-member-row">
 
 <div class="team-member-photo-col">
-<img class="team-student-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
+<div class="team-member-photo-frame">
+<img class="team-student-photo{% if member.photo_crop %} team-student-photo--{{ member.photo_crop }}{% endif %}" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
+</div>
 </div>
 <div class="team-member-info-col">
   <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>

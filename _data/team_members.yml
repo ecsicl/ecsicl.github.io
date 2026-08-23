@@ -45,6 +45,7 @@
 
 - name: "Abhishek Annadurai"
   photo: abhishek_annadurai.jpg
+  photo_crop: tight
   info: Research Assistant, CSUF M.S. in Computer Engineering, Graduated Summer 2026
   affiliation_logo: csuf.jpg
   education:
