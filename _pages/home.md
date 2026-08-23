@@ -18,7 +18,7 @@ Research in the laboratory focuses on 8 core topics: <br><br>
 (2) Mathematical Theory for Deep Learning<br>
 (3) Big Data Analytics/Processing<br> 
 (4) High-Performance Computing<br> 
-(5) Architecting Hardware Accelerator<br> 
+(5) Hardware Accelerator Architecture<br>
 (6) AI in Health<br>
 (7) Generative AI<br>
 (8) AI for Science<br><br>
@@ -29,11 +29,11 @@ Research in the laboratory focuses on 8 core topics: <br><br>
 
 <h4 style="font-size: 0.95rem !important;">
 
-The Intelligent computing research lab is looking for self-motivated students and scholars to join the Lab for pursuing graduate degrees (M.S. in Electrical Engineering, Computer Engineering, Mathematics and/or Computer Science and Ph.D. in Computational Science) or conduct collaborative research. Also, there are multiple visiting scholar positions. If you are interested in working with me, please send your resume to ybai2 at uci dot edu.<br><br></h4>
+The Intelligent Computing Joint Research Laboratory welcomes self-motivated students and scholars who are interested in pursuing graduate degrees (M.S. in Electrical Engineering, Computer Engineering, Mathematics, or Computer Science; Ph.D. in Computational Science) or conducting collaborative research. Visiting scholars are also welcome to inquire. If you are interested in working with our laboratory, please send your CV to ybai2 at uci dot edu.<br><br></h4>
 
 <h3 style="font-size: 1.1rem !important;">Note:</h3>
 
 <h4 style="font-size: 0.95rem !important;">
-The University of California, Irvine (UCI), is the world's most prestigious university, according to U.S. News & World Report 2025. It is ranked #33 in the top national universities (out of 436 national universities) and #9 in Best Schools: Computer Science and Engineering Programs.
-The California State University, Fullerton (CSUF), is a significant university ranked as a top institution in the nation and recognized as a leader within the California State University and beyond. According to U.S. News & World Report 2025, it is ranked #69 in the top public universities in the national universities.
+The University of California, Irvine (UCI), is a top-ranked public research university. In the U.S. News & World Report 2025-26 Best Colleges rankings, UCI is ranked No. 32 among national universities and No. 9 among public universities. Its undergraduate Computer Science and Engineering programs are ranked No. 25 and No. 35, respectively.<br><br>
+California State University, Fullerton (CSUF), is a leading public university in the California State University system. In the U.S. News & World Report 2026 rankings, CSUF is ranked No. 6 among Top Performers on Social Mobility.
 </h4>

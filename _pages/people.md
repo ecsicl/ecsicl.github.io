@@ -12,34 +12,44 @@ permalink: /people/
   max-width: 144px;
   object-fit: cover;
   display: block;
+  border-radius: 6px;
 }
+.team-profile-grid,
 .team-student-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem;
+  margin-bottom: 2rem;
 }
 .team-member-cell {
-  width: 100%;
-  padding-right: 0;
+  min-width: 0;
 }
 .team-member-row {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 2.25rem;
+  height: 100%;
+  padding: 1.1rem;
+  background: #fff;
+  border: 1px solid #dfe4e8;
+  border-radius: 8px;
+  box-shadow: 0 5px 16px rgba(31, 42, 51, 0.07);
 }
 .team-member-row h4 {
   margin: 0 0 0.35rem;
+  line-height: 1.25;
 }
 .team-member-photo-col p {
   margin: 0;
 }
 .team-inline-links {
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.18rem;
   margin-left: 0.45rem;
   vertical-align: middle;
 }
 .team-inline-links a {
   display: inline-block;
-  margin: 0 0.12rem;
 }
 .team-student-section-title {
   display: flex;
@@ -73,20 +83,29 @@ permalink: /people/
 .team-member-info-col {
   flex: 1;
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 .team-pi-photo {
-  width: 100%;
+  width: 160px;
+  height: 160px;
   max-width: 160px;
-  height: auto;
+  object-fit: cover;
   display: block;
+  border-radius: 6px;
 }
-@media (min-width: 992px) {
-  .team-master-grid .team-member-cell {
-    width: 50%;
-    padding-right: 1.4rem;
+.team-pi-photo-col {
+  flex: 0 0 172px;
+}
+@media (max-width: 991px) {
+  .team-profile-grid,
+  .team-student-grid {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 575px) {
+  .team-member-row {
+    padding: 0.85rem;
+  }
   .team-student-photo {
     width: 128px;
     height: 128px;
@@ -96,7 +115,12 @@ permalink: /people/
     flex-basis: 140px;
   }
   .team-pi-photo {
+    width: 144px;
+    height: 144px;
     max-width: 144px;
+  }
+  .team-pi-photo-col {
+    flex-basis: 156px;
   }
 }
 </style>
@@ -107,18 +131,19 @@ permalink: /people/
 
 ## Principal Investigators
 
+<div class="team-profile-grid team-pi-grid">
 {% for member in site.data.pi %}
 
-<div class="jumbotron">
-<div class="row">
-<div class="col-sm-3 col-xs-12">
+<div class="team-member-cell">
+<div class="team-member-row team-pi-card">
+<div class="team-pi-photo-col">
   <img class="team-pi-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
-<div class="col-sm-9 col-xs-12">
+<div class="team-member-info-col">
 <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
 <i>{{ member.info }}</i><br>
 
-<ul style="overflow: hidden">
+<ul class="team-member-education">
 <li> {{ member.education[0] }} </li>
 <li> {{ member.education[1] }} </li>
 </ul>
@@ -127,10 +152,10 @@ permalink: /people/
 </div>
 
 {% endfor %}
+</div>
 
 ## Current Students
 
-<div class='jumbotron'>
 <h3 class="team-student-section-title">Ph.D. Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/uci.jpg" alt="UC Irvine logo"/></h3>
 <div class="team-student-grid team-phd-grid">
 {% for member in site.data.team_members %}
@@ -195,7 +220,6 @@ permalink: /people/
 
 {% endif %}
 {% endfor %}
-</div>
 </div>
 
 ## Lab Alumni
