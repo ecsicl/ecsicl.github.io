@@ -1,4 +1,5 @@
 - name: "Mingshuo (Eric) Liu"
+  group: phd
   photo: mingshuo_liu.jpg
   info: UC Irvine Ph.D. Candidate in Computational Science, Started Fall 2023
   affiliation_logo: uci.jpg
@@ -10,6 +11,7 @@
   research_interests: "Machine Learning, AI4Science"
 
 - name: "Shiyi (Lottie) Luo"
+  group: phd
   photo: shiyi_luo.jpg
   info: UC Irvine Ph.D. Candidate in Computational Science, Started Fall 2024
   affiliation_logo: uci.jpg
@@ -21,6 +23,7 @@
   research_interests: "Generative Models, Model Compression, AI4Science"
 
 - name: "Yunduan (Cloud) Lou"
+  group: phd
   photo: yunduan_lou.jpg
   info: UC Irvine Ph.D. Student in Computational Science, Started Fall 2025
   affiliation_logo: uci.jpg
@@ -32,6 +35,7 @@
   research_interests: "Deep Learning, Model Compression, AI4Science"
 
 - name: "Jialin (Jaylen) Tang"
+  group: phd
   photo: jialin_tang.jpg
   info: UC Irvine Ph.D. Student in Computational Science, Started Fall 2026
   affiliation_logo: uci.jpg
@@ -44,9 +48,10 @@
   research_interests: "Deep Learning, Image Processing, Vision Large Language Models, Diffusion"
 
 - name: "Abhishek Annadurai"
+  group: ms
   photo: abhishek_annadurai.jpg
   photo_crop: tight
-  info: Research Assistant, CSUF M.S. in Computer Engineering, Graduated Summer 2026
+  info: Research Assistant
   affiliation_logo: csuf.jpg
   education:
     - "M.S. in Computer Engineering, California State University, Fullerton (2026)"
@@ -54,6 +59,7 @@
   #email: 
 
 - name: "Jiaqi Zhang"
+  group: ms
   photo: jiaqi_zhang.jpg
   info: CSUF M.S. Candidate in Computer Engineering, Started Spring 2025
   affiliation_logo: csuf.jpg
@@ -62,6 +68,7 @@
   #email: 
 
 - name: "Xiangchen Li"
+  group: ms
   photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2025
   affiliation_logo: csuf.jpg
@@ -71,6 +78,7 @@
   #email: 
 
 - name: "Zhijie Ma"
+  group: ms
   photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Electrical Engineering, Started Fall 2025
   affiliation_logo: csuf.jpg
@@ -79,6 +87,7 @@
   #email: 
 
 - name: "Huanjing Liu"
+  group: ms
   photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
   affiliation_logo: csuf.jpg
@@ -88,6 +97,7 @@
   #email: 
 
 - name: "Yuqi Yang"
+  group: ms
   photo: csuf_fullerton_placeholder.png
   info: CSUF M.S. Student in Computer Engineering, Started Fall 2026
   affiliation_logo: csuf.jpg

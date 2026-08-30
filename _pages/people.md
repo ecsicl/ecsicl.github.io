@@ -171,7 +171,7 @@ permalink: /people/
 <h3 class="team-student-section-title">Ph.D. Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/uci.jpg" alt="UC Irvine logo"/></h3>
 <div class="team-student-grid team-phd-grid">
 {% for member in site.data.team_members %}
-{% if member.info contains "Ph.D." %}
+{% if member.group == "phd" %}
 
 <div class="team-member-cell">
 <div class="team-member-row">
@@ -192,7 +192,7 @@ permalink: /people/
   </ul>
   {% endif %}
   {% if member.research_interests %}
-  <p class="team-research-interest"><strong>Research Interest:</strong> {{ member.research_interests }}</p>
+  <p class="team-research-interest"><strong>Research Interests:</strong> {{ member.research_interests }}</p>
   {% endif %}
 
 </div>
@@ -203,10 +203,10 @@ permalink: /people/
 {% endfor %}
 </div>
 
-<h3 class="team-student-section-title">Master Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/csuf.jpg" alt="Cal State Fullerton logo"/></h3>
+<h3 class="team-student-section-title">M.S. Students <img class="team-section-logo" src="{{ site.url }}{{ site.baseurl }}/images/csuf.jpg" alt="Cal State Fullerton logo"/></h3>
 <div class="team-student-grid team-master-grid">
 {% for member in site.data.team_members %}
-{% if member.info contains "M.S." %}
+{% if member.group == "ms" %}
 
 <div class="team-member-cell">
 <div class="team-member-row">
@@ -227,7 +227,7 @@ permalink: /people/
   </ul>
   {% endif %}
   {% if member.research_interests %}
-  <p class="team-research-interest"><strong>Research Interest:</strong> {{ member.research_interests }}</p>
+  <p class="team-research-interest"><strong>Research Interests:</strong> {{ member.research_interests }}</p>
   {% endif %}
 
 </div>
