@@ -57,7 +57,12 @@ permalink: /people/
   vertical-align: middle;
 }
 .team-inline-links a {
-  display: inline-block;
+  align-items: center;
+  display: inline-flex;
+}
+.team-inline-links a:focus-visible {
+  outline: 2px solid #145da0;
+  outline-offset: 2px;
 }
 .team-student-section-title {
   display: flex;
@@ -104,6 +109,14 @@ permalink: /people/
 .team-pi-photo-col {
   flex: 0 0 172px;
 }
+.team-people-list {
+  line-height: 1.55;
+  margin: 0 0 2rem;
+  padding-left: 1.25rem;
+}
+.team-people-list li {
+  margin-bottom: 0.5rem;
+}
 @media (max-width: 991px) {
   .team-profile-grid,
   .team-student-grid {
@@ -112,6 +125,8 @@ permalink: /people/
 }
 @media (max-width: 575px) {
   .team-member-row {
+    flex-direction: column;
+    gap: 0.75rem;
     padding: 0.85rem;
   }
   .team-student-photo {
@@ -124,7 +139,8 @@ permalink: /people/
     height: 128px;
   }
   .team-member-photo-col {
-    flex-basis: 140px;
+    flex: none;
+    width: 100%;
   }
   .team-pi-photo {
     width: 144px;
@@ -132,7 +148,8 @@ permalink: /people/
     max-width: 144px;
   }
   .team-pi-photo-col {
-    flex-basis: 156px;
+    flex: none;
+    width: 100%;
   }
 }
 </style>
@@ -152,7 +169,7 @@ permalink: /people/
   <img class="team-pi-photo" src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}"/>
 </div>
 <div class="team-member-info-col">
-<h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
+<h4>{{ member.name }}{% include profile_links.html member=member %}</h4>
 <i>{{ member.info }}</i><br>
 
 <ul class="team-member-education">
@@ -182,7 +199,7 @@ permalink: /people/
 </div>
 </div>
 <div class="team-member-info-col">
-  <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
+  <h4>{{ member.name }}{% include profile_links.html member=member %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}
   <ul class="team-member-education">
@@ -217,7 +234,7 @@ permalink: /people/
 </div>
 </div>
 <div class="team-member-info-col">
-  <h4>{{ member.name }}{% if member.scholar or member.researchgate or member.email or member.cv or member.github %}<span class="team-inline-links">{% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}{% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>{% endif %}{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>{% endif %}{% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>{% endif %}{% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}</span>{% endif %}</h4>
+  <h4>{{ member.name }}{% include profile_links.html member=member %}</h4>
   <i>{{ member.info }}<br></i>
   {% if member.education %}
   <ul class="team-member-education">
@@ -240,35 +257,16 @@ permalink: /people/
 
 ## Lab Alumni
 
-<br>
+<ul class="team-people-list">
+{% for member in site.data.alumni %}
+  <li><strong>{{ member.name }}</strong>, {{ member.role }} at {{ member.organization }}, {{ member.location }}.</li>
+{% endfor %}
+</ul>
 
-Giovanni Martinez, Electrical & Electronics Engineer at Raytheon, Tucson, Arizona, USA.
+## Visiting Lab Members
 
-Jiaqi Tang, Software Engineer at Pac-dent, Brea, CA, USA.
-
-Xiaotian Ma, Database Administrator at Pac-dent, Brea, CA, USA.
-
-Simon Yang, Manager at Ecotron, Whittier, CA, USA.
-
-Payal Borulkar, Senior Engineer at Google, Mountain View, CA, USA.
-
-Ashkan Samiee, Senior Engineer at Tesla Inc., CA, USA.
-
-John Gawlik, Scientist at Department of Defense (DOD) Research Lab, USA.
-
-Azadeh Famili, Currently Ph.D. Candidate at Clemson University, SC, USA.
-
-Jonathan Schinowsky, Engineer at Department of Defense (DOD) Research Lab, USA. 
-
-<br>
-## Visiting Lab Member
-
-<br>
-
-Yuga Ono, SoftBank Group
-
-Carlye Favella, Golden West College
-
-Aimee Guzman, Santa Ana College
-
-Maria Moreno Lopez, Santiago Canyon College
+<ul class="team-people-list">
+{% for member in site.data.visiting_members %}
+  <li><strong>{{ member.name }}</strong>, {{ member.affiliation }}</li>
+{% endfor %}
+</ul>

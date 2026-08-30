@@ -1,0 +1,7 @@
+<div class="publication-list">
+{% for publication in include.entries %}
+  <p class="publication-entry">
+    {% if publication.label %}<strong>[{{ publication.label }}]</strong> {% endif %}{{ publication.authors }}. "<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer" title="Open {{ publication.title }}" aria-label="Open {{ publication.title }}">{{ publication.title }}</a>." {{ publication.citation }}{% if publication.doi %} doi: <a href="https://doi.org/{{ publication.doi }}" target="_blank" rel="noopener noreferrer" title="Open DOI {{ publication.doi }}" aria-label="Open DOI {{ publication.doi }}">{{ publication.doi }}</a>.{% endif %}
+  </p>
+{% endfor %}
+</div>

@@ -1,0 +1,10 @@
+{%- assign member = include.member -%}
+{%- assign ai_size = "ai-2x" -%}
+{%- assign fa_size = "fa-2x" -%}
+{%- if include.large -%}
+  {%- assign ai_size = "ai-3x" -%}
+  {%- assign fa_size = "fa-3x" -%}
+{%- endif -%}
+{%- if member.scholar or member.researchgate or member.email or member.cv or member.github -%}
+<span class="team-inline-links{% if include.large %} about-profile-links{% endif %}">{%- if member.scholar -%}<a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer" title="Google Scholar profile for {{ member.name }}" aria-label="{{ member.name }} on Google Scholar"><i class="ai ai-google-scholar-square {{ ai_size }}" aria-hidden="true"></i></a>{%- endif -%}{%- if member.researchgate -%}<a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" title="ResearchGate profile for {{ member.name }}" aria-label="{{ member.name }} on ResearchGate"><i class="ai ai-researchgate-square {{ ai_size }}" aria-hidden="true"></i></a>{%- endif -%}{%- if member.email -%}<a href="mailto:{{ member.email }}" title="Email {{ member.name }}" aria-label="Email {{ member.name }}"><i class="fa fa-envelope-square {{ fa_size }}" aria-hidden="true"></i></a>{%- endif -%}{%- if member.cv -%}<a href="{{ member.cv }}" target="_blank" rel="noopener noreferrer" title="CV for {{ member.name }}" aria-label="Open CV for {{ member.name }}"><i class="ai ai-cv-square {{ ai_size }}" aria-hidden="true"></i></a>{%- endif -%}{%- if member.github -%}<a href="{{ member.github }}" target="_blank" rel="noopener noreferrer" title="GitHub profile for {{ member.name }}" aria-label="{{ member.name }} on GitHub"><i class="fa fa-github-square {{ fa_size }}" aria-hidden="true"></i></a>{%- endif -%}</span>
+{%- endif -%}
