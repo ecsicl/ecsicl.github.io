@@ -91,6 +91,8 @@ scholar:
 exclude:
   - Gemfile
   - Gemfile.lock
+  # GitHub Pages v232 can fail while compiling Bootstrap Sass; deploy the locally compiled CSS.
+  - assets/main.scss
   - update_boostrap.sh
   - switch_theme.sh
   - tags
