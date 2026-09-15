@@ -148,6 +148,14 @@ class ContentRegressionTest < Minitest::Test
     refute_includes people, "<strong>Research Interest:</strong>"
   end
 
+  def test_student_start_terms_stay_together
+    people = read("_pages/people.md")
+
+    assert_equal 2, people.scan('class="team-started"').length
+    assert_includes people, 'white-space: nowrap;'
+    assert_equal 2, people.scan('member.info | split: ", Started "').length
+  end
+
   def test_publication_citations_do_not_expose_draft_metadata
     publications = read("_data/publications.yml")
     broken_fragments = [

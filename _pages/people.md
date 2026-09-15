@@ -98,6 +98,10 @@ permalink: /people/
   min-width: 0;
   overflow-wrap: anywhere;
 }
+.team-started {
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
 .team-pi-photo {
   width: 160px;
   height: 160px;
@@ -200,7 +204,8 @@ permalink: /people/
 </div>
 <div class="team-member-info-col">
   <h4>{{ member.name }}{% include profile_links.html member=member %}</h4>
-  <i>{{ member.info }}<br></i>
+  {% assign info_parts = member.info | split: ", Started " %}
+  <i>{{ info_parts[0] }}{% if info_parts.size > 1 %}, <span class="team-started">Started {{ info_parts[1] }}</span>{% endif %}<br></i>
   {% if member.education %}
   <ul class="team-member-education">
   {% for education in member.education %}
@@ -235,7 +240,8 @@ permalink: /people/
 </div>
 <div class="team-member-info-col">
   <h4>{{ member.name }}{% include profile_links.html member=member %}</h4>
-  <i>{{ member.info }}<br></i>
+  {% assign info_parts = member.info | split: ", Started " %}
+  <i>{{ info_parts[0] }}{% if info_parts.size > 1 %}, <span class="team-started">Started {{ info_parts[1] }}</span>{% endif %}<br></i>
   {% if member.education %}
   <ul class="team-member-education">
   {% for education in member.education %}
