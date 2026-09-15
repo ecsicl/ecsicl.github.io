@@ -148,12 +148,14 @@ class ContentRegressionTest < Minitest::Test
     refute_includes people, "<strong>Research Interest:</strong>"
   end
 
-  def test_student_start_terms_stay_together
+  def test_student_start_terms_always_start_on_their_own_line
     people = read("_pages/people.md")
 
     assert_equal 2, people.scan('class="team-started"').length
     assert_includes people, 'white-space: nowrap;'
     assert_equal 2, people.scan('member.info | split: ", Started "').length
+    assert_equal 2, people.scan('<br><span class="team-started">Started').length
+    refute_includes people, ', <span class="team-started">'
   end
 
   def test_publication_citations_do_not_expose_draft_metadata
