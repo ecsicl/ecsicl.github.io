@@ -47,17 +47,6 @@
   cv: https://jaylentang.github.io/
   research_interests: "Deep Learning, Image Processing, Vision Large Language Models, Diffusion"
 
-- name: "Abhishek Annadurai"
-  group: ms
-  photo: abhishek_annadurai.jpg
-  photo_crop: tight
-  info: Research Assistant
-  affiliation_logo: csuf.jpg
-  education:
-    - "M.S. in Computer Engineering, California State University, Fullerton (2026)"
-    - "B.E. in Electrical and Electronics Engineering, Panimalar Engineering College (2024)"
-  #email: 
-
 - name: "Jiaqi Zhang"
   group: ms
   photo: jiaqi_zhang_2026.jpg

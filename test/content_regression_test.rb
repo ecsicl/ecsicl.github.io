@@ -108,7 +108,11 @@ class ContentRegressionTest < Minitest::Test
     assert_equal "Professor of Electrical and Computer Engineering, California State University, Fullerton", pi[0].fetch("info")
     assert_equal "Professor of Mathematics, University of California, Irvine", pi[1].fetch("info")
     assert_equal "Giovanni Martinez", alumni.first.fetch("name")
-    assert_equal 9, alumni.length
+    assert_equal 10, alumni.length
+    abhishek_alumnus = alumni.find { |member| member["name"] == "Abhishek Annadurai" }
+    assert_equal "Software Engineer", abhishek_alumnus.fetch("role")
+    assert_equal "Pac-dent", abhishek_alumnus.fetch("organization")
+    assert_equal "Brea, CA, USA", abhishek_alumnus.fetch("location")
     assert_equal 4, visitors.length
     assert_includes people, "site.data.alumni"
     assert_includes people, "site.data.visiting_members"
@@ -134,8 +138,7 @@ class ContentRegressionTest < Minitest::Test
     students = members.reject { |member| member["name"] == "Welcome to join our team!" }
     people = read("_pages/people.md")
 
-    assert_equal "Research Assistant", abhishek.fetch("info")
-    assert_equal "ms", abhishek.fetch("group")
+    assert_nil abhishek
     assert students.all? { |member| %w[phd ms].include?(member["group"]) }
     assert_includes people, 'member.group == "phd"'
     assert_includes people, 'member.group == "ms"'
