@@ -81,15 +81,15 @@ class ContentRegressionTest < Minitest::Test
     config = YAML.safe_load(read("_config.yml"))
     funding = config.fetch("nav_pages").find { |page| page["name"] == "fundings" }
     service = config.fetch("nav_pages").find { |page| page["name"] == "services" }
-    yifeng = YAML.safe_load(read("_data/pi.yml")).find { |member| member["name"] == "Dr. Yifeng Yu" }
+    yu_bai = YAML.safe_load(read("_data/pi.yml")).first
 
     assert_equal "Funding", funding["label"]
     assert_equal "Service", service["label"]
     assert_includes read("_includes/header.html"), "page.label | default: page.name | capitalize"
     assert_includes config.fetch("contact"), "ai-google-scholar-square"
     refute_includes config.fetch("contact"), "fa-github"
-    assert_includes yifeng.fetch("scholar"), "scholar.google.com"
-    refute_equal yifeng.fetch("researchgate"), yifeng.fetch("scholar")
+    assert_includes yu_bai.fetch("scholar"), "scholar.google.com"
+    refute_equal yu_bai.fetch("researchgate"), yu_bai.fetch("scholar")
   end
 
   def test_obvious_public_text_typos_are_fixed
@@ -106,7 +106,9 @@ class ContentRegressionTest < Minitest::Test
     visitors = YAML.safe_load(read("_data/visiting_members.yml"))
 
     assert_equal "Professor of Electrical and Computer Engineering, California State University, Fullerton", pi[0].fetch("info")
-    assert_equal "Professor of Mathematics, University of California, Irvine", pi[1].fetch("info")
+    assert_equal ["Dr. Yu Bai"], pi.map { |member| member.fetch("name") }
+    assert_equal "Director, Intelligent Computing Joint Research Laboratory", pi[0].fetch("education").first
+    assert_includes people, "## Principal Investigator"
     assert_equal "Giovanni Martinez", alumni.first.fetch("name")
     assert_equal 9, alumni.length
     refute alumni.any? { |member| member["name"] == "Abhishek Annadurai" }

@@ -29,6 +29,10 @@ permalink: /people/
   gap: 1.1rem;
   margin-bottom: 2rem;
 }
+.team-pi-grid {
+  grid-template-columns: minmax(0, 700px);
+  justify-content: center;
+}
 .team-member-cell {
   min-width: 0;
 }
@@ -162,7 +166,7 @@ permalink: /people/
 
 **We are looking for new team members** [see openings](https://mp.weixin.qq.com/s?__biz=Mzg4NjAzNjA2MQ==&mid=2247483797&idx=1&sn=21ec18f61d2146a31bc9d34dec094fef&chksm=cf9e82a7f8e90bb1c2b906e3cc02fe49e3fcf176863b0d4237ff2d76e2f288e31969313f4f56&token=2133957464&lang=zh_CN#rd) **!**
 
-## Principal Investigators
+## Principal Investigator
 
 <div class="team-profile-grid team-pi-grid">
 {% for member in site.data.pi %}
